@@ -1,0 +1,9 @@
+server:
+  port: 7878
+
+spring:
+  application: 
+    name: Employee
+  data: 
+    mongodb:
+      uri: mongodb+srv://DataAdmin:DataAdmin@cluster0.zhvml.mongodb.net/Employee?retryWrites=true&w=majority
